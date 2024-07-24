@@ -16,9 +16,9 @@ import dj_database_url
 import django_heroku
 
 
-# DATABASES = {
-#     'default': dj_database_url.config(default='sqlite:///db.sqlite3')
-# }
+DATABASES = {
+    'default': dj_database_url.config(default='sqlite:///db.sqlite3')
+}
 
 
 
@@ -36,7 +36,7 @@ SECRET_KEY = 'django-insecure-tz^+m@jkte077#+xhv@y)m)@sb3heaya#cf^jj0+*ffndr=qdb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://tuw4tch.onrender.com/']
 
 
 # Application definition
