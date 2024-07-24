@@ -8,7 +8,7 @@ function MovieList() {
 
     const searchMovies = async () => {
         try {
-            const response = await axios.get(`https://tuw4tch-2ef1308251e7.herokuapp.com/`);
+            const response = await axios.get(`http://localhost:8000/tuwatch/search/?query=${query}`);
             // Ensure response.data.results is an array
             if (response.data.results && Array.isArray(response.data.results)) {
                 setMovies(response.data.results);

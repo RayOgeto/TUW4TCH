@@ -20,7 +20,7 @@ import django_heroku
 #     'default': dj_database_url.config(default='sqlite:///db.sqlite3')
 # }
 
-django_heroku.settings(locals())
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -36,7 +36,7 @@ SECRET_KEY = 'django-insecure-tz^+m@jkte077#+xhv@y)m)@sb3heaya#cf^jj0+*ffndr=qdb
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://tuw4tch-2ef1308251e7.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
