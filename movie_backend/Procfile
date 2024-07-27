@@ -1,1 +1,1 @@
-web: gunicorn movie_backend.wsgi:application
+web: gunicorn movie_backend.wsgi:application --logfile -
